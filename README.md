@@ -37,12 +37,12 @@ Based on that the real and predicted outcomes are resulting as the following:
 - A sample of 500 wells per region of which the 200 most promising would have been developed shows, that region 2 is the most profitable region using the estimations of the model.
 
 ### Step 3:
-- With bootstrapping with 1000 Samples the average profit and the probability of a loss per region results as:
-| Region  	| Estimated Profit in $	| Probability of loss in %	|   
-|---------	|---------------------- |-------------------------	|  
-| Region0 	| 3.88e6			 	| 6.85						|  
-| Region1 	| 4.91e6		     	| 0.36						|  
-| Region2 	| 3.62e6		     	| 9.23						|
+With bootstrapping with 1000 Samples the average profit and the probability of a loss per region results as:   
+| Region  	| Estimated Profit in $ 	| Probability of loss in % 	|
+|---------	|-----------------------	|--------------------------	|
+| Region0 	| 3.88e6                	| 6.85                     	|
+| Region1 	| 4.91e6                	| 0.36                     	|
+| Region2 	| 3.62e6                	| 9.23                     	|
 
 ### Step 4:
 Based on the previously carried out steps the new 200 wells should be developed in region 1. This region is choose because it has the highest to expecting profit with a minimal chance of losses compared to region 0 and 2.
